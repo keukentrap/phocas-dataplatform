@@ -1,0 +1,19 @@
+:root, .mdc-drawer, .mdc-list-item--selected, .mdc-list-item--activated, .mdc-list-item--activated, .mdc-list-item--activated, .mdc-list-item__graphic{
+    --mdc-theme-primary: #3f51b5;
+    --mdc-theme-secondary: #FFDE03;
+    --list-item--activated: #3f51b5;
+    color:#3f51b5;
+  }
+  .mdc-drawer, .mdc-list-item--activated{
+      color: #3f51b5;
+  }
+  body{
+      margin-left: 0;
+      margin-top: 0;
+  }
+  .mdc-drawer .mdc-list-item--activated .mdc-list-item__graphic {
+      color: #3f51b5;
+  }
+  .mdc-drawer .mdc-list-item--activated {
+    color: #3f51b5;
+  }

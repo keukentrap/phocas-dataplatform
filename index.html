@@ -1,0 +1,59 @@
+
+<head>
+  <!-- Required styles for MDC Web -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <!-- Styling the theme -->
+    <link rel="stylesheet" href="stylesheets/theme.css">    
+</head>
+  <!-- Required scripts -->
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <!-- Load our own javascript code -->
+ 
+
+
+<body>
+    <aside class="mdc-drawer mdc-drawer--dismissible">
+        <div class="mdc-drawer__header">
+            <h3 class="mdc-drawer__title">Sportersprofiel</h3>
+            <h6 class="mdc-drawer__subtitle">Leander van den Heuvel</h6>
+          </div>
+      <div class="mdc-drawer__content">
+        <div  class="mdc-list">
+          <a id="mypage" class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">trending_up</i>
+            <span class="mdc-list-item__text">Mijn prestaties</span>
+          </a>
+          <a id="myboat" class="mdc-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">people_alt</i>
+            <span class="mdc-list-item__text">Mijn ploeg</span>
+          </a>
+          <a id="myclub" class="mdc-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">rowing</i>
+            <span class="mdc-list-item__text">Prestaties vereniging</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+  
+    <div class="mdc-drawer-app-content">
+      <header class="mdc-top-app-bar app-bar" id="app-bar">
+        <div class="mdc-top-app-bar__row">
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
+            <span class="mdc-top-app-bar__title">Data-analyse</span>
+          </section>
+        </div>
+      </header>
+  
+      <main class="main-content" id="main-content">
+        <div class="mdc-top-app-bar--fixed-adjust">
+            <div id="chart_div" style="width: 900px; height: 500px;"></div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script src="scripts/main.js"></script>
