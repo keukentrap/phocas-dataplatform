@@ -10,10 +10,6 @@
   <!-- Required scripts -->
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <!-- Load our own javascript code -->
- 
-
-
 <body>
     <aside class="mdc-drawer mdc-drawer--dismissible">
         <div class="mdc-drawer__header">
@@ -50,10 +46,23 @@
   
       <main class="main-content" id="main-content">
         <div class="mdc-top-app-bar--fixed-adjust">
-            <div id="chart_div" style="width: 900px; height: 500px;"></div>
+            <div id="chart_div" ></div>
+            <div class="mdc-layout-grid">
+              <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell">
+                  <div class="mdc-layout-grid__inner">
+                    <div class="mdc-layout-grid__cell"><span>Second level</span></div>
+                    <div class="mdc-layout-grid__cell"><span>Second level</span></div>
+                  </div>
+                </div>
+                <div class="mdc-layout-grid__cell">First level</div>
+                <div class="mdc-layout-grid__cell">First level</div>
+              </div>
+            </div>
         </div>
       </main>
     </div>
   </body>
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <!-- Load our own javascript code -->
   <script src="scripts/main.js"></script>
